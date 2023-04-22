@@ -1,0 +1,204 @@
+body{
+    background: #000;
+
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo a{
+    text-decoration:  none;
+    color: #333;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  
+  .nav-links li {
+    list-style: none;
+  }
+
+
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #ccc;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+    color: #fff;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .intro button {
+    background-color: yellow;
+    color: #000;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .intro-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .contact {
+    margin: 3rem 0;
+    color: yellow;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  form {
+  
+  align-items: center;
+    margin: 10px;
+  
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    
+  }
+  
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: 1px solid yellow;
+    font-size: 1.2rem;
+    color: yellow;
+    background-color: #000;
+    
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px #0d6efd;
+  }
+  
+  button[type="submit"] {
+    background-color: yellow;
+    color: #000;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+
+   
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0b5ed7;
+  }
+  .table {
+    
+
+    margin-right: 150px;
+    margin-left: 280px;
+    
+  
+  }
+  
+  .table h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  table {
+    width: 80%;
+
+    align-items: center;
+    border-collapse: collapse;
+    color: yellow;
+  }
+  
+  table th,
+  table td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid yellow;
+  }
+  
+  table th {
+    
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+  
+
+  
+  table tfoot {
+    font-weight: bold;
+    color: #000;
+    background: yellow;
+  }
+  
+  table tfoot td {
+    padding: 1rem 0.5rem;
+    text-align: center;
+    border-top: 1px solid yellow;
+  }
+  
+  table tfoot td:first-child {
+    text-align: center;
+    font-weight: normal;
+  }
+  
+  table tfoot tr:last-child td {
+    border-top: none;
+  }
+  
